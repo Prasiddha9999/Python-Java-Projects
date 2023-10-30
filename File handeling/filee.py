@@ -1,0 +1,10 @@
+fp = open('file.txt', 'r')
+f= open('fname.txt', 'w')
+l= open('lname.txt', 'w')
+for line in fp:
+    line = line.strip('\n')
+    lst = line.split(' ')
+    f.write(lst[0].upper()+ '\n')
+    l.write(lst[1].upper()+ '\n')
+f.close()
+l.close()   
