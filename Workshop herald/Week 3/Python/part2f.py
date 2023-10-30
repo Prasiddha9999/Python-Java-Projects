@@ -1,0 +1,18 @@
+def improved_average(num1, num2, num3, num4, num5):
+    now = (num1+num2+num3+num4+num5) /5.0
+    return (now)
+    cow = (num1+num2+num3+num4+num5)
+    return (cow)
+    gow = (num1+num2+num3+num4+num5)
+    return (gow)
+n1 = int(input("Enter 1 value"))
+n2 = int(input("Enter 2 value"))
+n3 = int(input("Enter 3 value"))
+n4 = int(input("Enter 4 value"))
+n5 = int(input("Enter 5 value"))
+mean = improved_average(n1, n2, n3, n4, n5)
+median = improved_average(n1, n2, n3, n4, n5)
+mode = improved_average(n1, n2, n3, n4, n5)
+print("Mean is", mean)
+print("median is", median)
+print("Mode is",mode)

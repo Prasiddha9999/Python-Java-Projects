@@ -1,0 +1,12 @@
+Note down the response to each. Do they differ from what you would expect?
+(A) result = avg(n1, n2)
+Write
+(B) avg(n1, n2, n3)
+Write
+(C) result = avg(n1 + n2, n3 + n4, n5 + n6)
+Wrong
+(D) print(avg(n1, n2, n3))
+Write
+(E) result = avg(n1, n2, avg(n3, n4, n5))
+Wrong
+Note: The checking program are Part1a, Part1b, Part1d
